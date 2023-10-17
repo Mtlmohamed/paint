@@ -2,8 +2,8 @@
 <html class="wide wow-animation" lang="en">
   <head>
     <link rel="stylesheet" href="path/to/owl.carousel.min.css">
-    <script src="path/to/owl.carousel.min.js"></script>
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="path/to/owl.carousel.min.js"></script>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0">
     <title>Mtl Painters</title>
     <meta charset="utf-8">
@@ -579,5 +579,18 @@
     <div class="snackbars" id="form-output-global"></div>
     <script src="js/core.min.js"></script>
     <script src="js/script.js"></script>
+    <script>
+      $(document).ready(function() {
+          $(".owl-carousel").owlCarousel({
+              items: 3,
+              loop: true,
+              nav: true,
+              margin: 30,
+              mouseDrag: false,
+              center: true,
+              autoplay: true
+          });
+      });
+  </script>
   </body>
 </html>
