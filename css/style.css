@@ -4174,7 +4174,7 @@ html:not(.lt-ie10) .not-animated {
 	align-items: center;
 	padding: 20px;
 	background: #ffffff;
-	transition: 0.1s all ease; /* Decreased the duration to 0.2s */
+	transition: 0.01s all ease; /* Decreased the duration to 0.1s */
 }
 
 .preloader.loaded {
