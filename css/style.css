@@ -4158,7 +4158,6 @@ html:not(.lt-ie10) .not-animated {
 	-webkit-animation-name: slideOutDown;
 	animation-name: slideOutDown;
 }
-
 /*
 *
 * Preloader
@@ -4175,7 +4174,7 @@ html:not(.lt-ie10) .not-animated {
 	align-items: center;
 	padding: 20px;
 	background: #ffffff;
-	transition: .3s all ease;
+	transition: 0.2s all ease; /* Decreased the duration to 0.2s */
 }
 
 .preloader.loaded {
@@ -4220,6 +4219,7 @@ html:not(.lt-ie10) .not-animated {
 		transform: rotate(360deg);
 	}
 }
+
 
 /*
 *
